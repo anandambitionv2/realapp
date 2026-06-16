@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginxdemos-hello
-  # namespace: default
+  namespace: demo
   labels:
     app: nginxdemos-hello
 spec:
